@@ -233,9 +233,16 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "飞行V3",
+	Name = "二改飞行V3",
 	Callback = function()
-    loadstring(game:HttpGet("https://shz.al/Bnri"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xH6gPNS9"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "二改自瞄",
+	Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/mURqhifL"))()
   	end    
 })
 
